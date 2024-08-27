@@ -1,0 +1,22 @@
+{
+  "name": "projeto_completo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mssql": "^11.0.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "projeto_completo": "file:",
+    "sequelize": "^6.37.3"
+  }
+}

@@ -1,0 +1,18 @@
+
+.container-fluid{
+    background-color: rgb(0, 0, 107);
+    padding: 1%;
+}
+
+navbar{
+    margin: 0%;
+
+}
+
+.container-fluid a{
+    color: white;
+}
+
+.navbar{
+    padding: 0% !important;
+}

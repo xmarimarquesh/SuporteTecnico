@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 243, 243);
+}
+
+
+*{
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card img{
+    width: 150px;
+    height: 100px;
+    margin: 10%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: none;
+}
+
+.container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card a{
+    border-radius: 4px;
+    background-color: rgb(0, 0, 107);
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.chamados img{
+    cursor: pointer;
+}
+
+.chamados{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+h1 {
+    background: linear-gradient(90deg, rgba(58,155,180,1) 0%, rgba(29,71,253,1) 50%, rgba(204,69,252,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .acao{
+    cursor: pointer;
+  }
